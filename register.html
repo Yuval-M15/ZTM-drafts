@@ -7,31 +7,42 @@
 </head>
 <body>
 	<h1>Sign up</h1>
-	<p><strong>* = required</strong></p>
-<form>
-	*First name:  <input type="text" required> <br><br>
-	*Last name:  <input type="text" required> <br><br>
-	*Email:  <input type="email" required> <br><br>
-	Birth date: <input type="date"><br><br>
+
+	<p><strong>* = Required</strong></p>
+
+<form method="get">
+	*First name:  <input type="text" name="firstname" required> <br><br>
+
+	*Last name:  <input type="text" name="lastname" required> <br><br>
+
+	*Email:  <input type="email" name="email" required> <br><br>
+
+	*Birth date: <input type="date" name="birthdate" required><br><br>
+
 	Gender: <br>
-	 <input type="radio" name="Gender" required> Male <br>
-	 <input type="radio" name="Gender" required> Female <br>
-	 <input type="radio" name="Gender" required> Other <br><br>
-	How did you find us?  <input type="text"> <br><br>
-	Do you like checkboxes? <br> <input type="checkbox" name="like"> Yes <br> <input type="checkbox" name="like"> also yes <br><br>
+	 <input type="radio" name="Gender" value="male" required> Male <br>
+	 <input type="radio" name="Gender" value="female" required> Female <br>
+	 <input type="radio" name="Gender" value="other" required> Other <br><br>
+
+	How did you find us? <input type="text" name="how did you find nutriplay"> <br><br>
+
+what foods do you like? <br>
+	 <input type="checkbox" name="he likes" value="pizza"> pizza <br>
+	 <input type="checkbox" name="he likes" value="kabanos"> kabanos <br>
+	 <input type="checkbox" name="he likes" value="pastrama"> pastrama <br>
+
+
 what is the level of your knowledge about nutrition? <br>
-<select>
+<select name="knowledge level">
 	<option value="newbie"> Begginer</option>
 	<option value="Intermediate"> Intermediate</option>
 	<option value="Professional (self educated)"> Professional (Self educated)</option>
-	<option value="Academic education"> Professional (Academic education)</option>
+	<option value="Registerd Professional (academia)"> Professional (academia)</option>
 </select> <br><br><hr>
 
 <strong>choose a nickname and a password</strong> <br><br>
-Nickname:  <input type="text" required> <br><br>
-Password:  <input type="password" min=8 required> <br><br>
-
-
+Nickname:  <input type="text" name="nick" required> <br><br>
+Password:  <input type="password" name="pass" required> <br><br>
 
 	<input type="submit" value="Register">
 	
