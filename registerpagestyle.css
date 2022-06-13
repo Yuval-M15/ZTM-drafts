@@ -1,0 +1,10 @@
+h1 {
+ text-shadow: 3px 3px 10px seagreen;
+ color: darkred;
+ text-align: center;
+ border: 3px solid mediumvioletred;
+}
+
+body {background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/highlighter-notebook_JFTJNB5LJD.jpg);
+background-size: cover;
+}
