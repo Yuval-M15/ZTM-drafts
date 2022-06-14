@@ -8,3 +8,11 @@ h1 {
 body {background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/highlighter-notebook_JFTJNB5LJD.jpg);
 background-size: cover;
 }
+
+input[type=submit] {
+    padding:15px 15px; 
+    background:#dc49df; 
+    cursor:pointer;
+    border: 3px solid #701965;
+    -webkit-border-radius: 5px;
+    border-radius: 19px; }
