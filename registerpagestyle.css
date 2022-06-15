@@ -1,6 +1,14 @@
+:root {
+    --darkred: darkred;
+    --seagean: seagreen;
+    --gradient-background: linear-gradient(50deg, rgba(248,251,248,1) -100%, rgba(192,245,230,1) 100%);
+    --gradient-backgroud-title: linear-gradient(99.02deg, #A045B7 29.03%, #076A4E 107.64%);
+  }
+
+
 h1 {
- text-shadow: 3px 3px 10px seagreen;
- color: darkred;
+ text-shadow: 3px 3px 10px var(--seagreen);
+ color: var(--darkred);
  text-align: center;
  border: 3px solid mediumvioletred;
 }
