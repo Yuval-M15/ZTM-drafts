@@ -1,0 +1,35 @@
+h1 {
+ text-shadow: 4px 4px 11px darkmagenta;
+ color: darkblue;
+ text-align: center;}
+
+body {background-image: url(https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b2ZmaWNlJTIwZGVza3xlbnwwfHwwfHw%3D&w=1000&q=80);
+background-size: cover;
+font: 16px/1.4 tahoma;
+color: whitesmoke;
+text-shadow: 2px 2px 3px darkgrey; }
+
+input[type=text], input[type=tel], input[type=email] {
+    padding:8px 8px; 
+    background:silver; 
+    cursor:pointer;
+    border: 2px solid black;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; }
+
+
+textarea {background: silver;
+	padding:20px 20px; 
+    background:silver; 
+    cursor:default;
+    border: 2px solid black;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; }
+
+input[type=submit] {
+    padding:15px 15px; 
+    background:#dc49df; 
+    cursor:pointer;
+    border: 3px solid #701965;
+    -webkit-border-radius: 5px;
+    border-radius: 19px; }
